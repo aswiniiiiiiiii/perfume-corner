@@ -1,0 +1,1249 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    width: 100%;
+    height:4rem;
+    background-color: rgb(250, 229, 197);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     top: 0;
+     left: 0;
+     z-index: 2;
+     position: fixed;
+}
+.navbar img{
+    height: 3rem;
+    width: 3rem;
+}
+.nav_contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    font-weight: 700;
+    font-family: "Cinzel", serif;
+
+ }
+ .nav_contents a:hover{
+    text-decoration: underline;
+ }
+.logo{
+    width: 70%;
+   
+}
+.nav_contents a{
+    text-decoration: none;
+    color: black;
+}
+#check{
+    display: none;
+}
+.icons{
+    font-size: 1.2rem;
+    right: 5%;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+}
+/* home */
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.home img{
+    width: 100%;
+    height: 100vh;
+}
+.home-content{
+    position: absolute;
+    left: 20%;
+    top: 65%;
+    color: white;
+    text-align: center;
+}
+.home-head{
+    font-size: 7rem;
+    font-weight: 600;
+    color: rgb(228, 184, 168);
+   text-shadow: 3px 3px 8px black;
+   font-family: "Cinzel", serif;
+
+
+}
+.home-para{
+    font-size: 2rem;
+    color: rgb(228, 184, 168);
+    text-shadow: 3px 3px 8px black;
+    font-family: "Cinzel", serif;
+    font-weight: 600;
+}
+/* category */
+.categories_container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(250, 229, 197);
+  
+   
+}
+.category_sub{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 90rem;
+    height: auto;
+    gap: 2%;
+    padding: 2.2rem 0px 2rem 0px;
+
+
+}
+.items{
+    position: relative;
+    width: 32%;
+    height: 27rem;
+    box-shadow: black 0px 3px 15px;
+}
+.items img{
+    width: 100%;
+    height: 100%;
+}
+.details{
+    position: absolute;
+    bottom: 2rem;
+    left:30%;
+    text-align: center;
+    
+}
+.link{
+    border: solid black;
+    color: black;
+    padding: 5px 10px;
+}
+.link:hover{
+    background-color: rgb(250, 229, 197);
+}
+.head{
+    font-size: 2rem;
+    font-family: "Cinzel", serif;
+    text-shadow: 3px 3px 8px rgb(228, 184, 168);
+
+}
+.main-head{
+    font-size: 3rem;
+    font-family: "Cinzel", serif;
+    text-shadow: 3px 3px 8px rgb(228, 184, 168);
+
+}
+.cards_whole_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.cards_sub_container{
+    width: 90rem;
+    height: auto;
+    gap: 2%;
+    margin: 1rem 0rem;
+}
+.collection-header{
+    width: 100%;
+    text-align: center;
+    font-family: "Cinzel", serif;
+    padding-top: 4rem;
+
+}
+.collection-header h1{
+    margin: 2rem 0rem ;
+}
+.type-collection{
+    display: flex;
+    justify-content: space-between;
+    gap:2% ;
+    align-items: stretch !important;
+    width: 100%;
+   
+    
+}
+.type-items{
+    margin-bottom: 4rem;
+    
+    height: 100%;
+    width:100%;
+    transition: transform .2s;
+    padding:2rem 1rem ;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.type-items:hover{
+    box-shadow: rgb(228, 184, 168) 0px 5px 15px;
+    border: none;
+    transform: scale(1.1);
+}
+
+.perfum-images{
+    width: 10rem;
+    height: 10rem;
+}
+.collection-main{
+    font-size: 1.2rem;
+    font-family: "Cinzel", serif;
+
+}
+.collection-sub,.collection-rate{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Maname", serif;
+
+}
+.order-container{
+    margin-top: 10px;
+}
+.order-btn{
+    color: black;
+    padding: 3px 5px;
+    background-color: rgb(228, 184, 168);
+    border-radius: 5px;
+}
+.order-btn:hover{
+    border: solid 1px black;
+}
+.about_main_container{
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+}
+.about{
+    position: relative;
+    width: 100%;
+    height: 30rem;
+}
+.about img{
+    width: 100%;
+    height: 100%;
+}
+.about-contents{
+    position: absolute;
+    width: 45%;
+    right: 10%;
+    top: 25%;
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.about-contents h1{
+    font-family: "Cinzel", serif;
+    font-size: 3rem;
+
+}
+.footer_main_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.footer_sub_container{
+    width: 90rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+}
+.main-container{
+    color: white;
+}
+.main-container li{
+    margin-top: 0.5rem;
+}
+
+.fb,.insta,.twitter{
+    color:white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+ul {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+@media (max-width: 1600px) and (min-width: 1400px) {
+
+    .navbar{
+        height:4rem;     
+    }
+
+    .navbar img{
+        height: 3rem;
+        width: 3rem;
+    }
+
+    
+    .home-content{
+        position: absolute;
+        left: 30%;
+        top: 65%;
+       
+    }
+    .home-head{
+        font-size: 5rem;
+    }
+    .home-para{
+        font-size: 1.5rem;
+    }
+
+    /* category */
+
+    .category_sub{
+        width: 80rem;
+        height: auto;
+        gap: 2%;
+        margin: 2rem 0rem;    
+    }
+
+    .items{
+        position: relative;
+        width: 32%;
+        height: 24rem;
+        box-shadow: black 0px 3px 15px;
+    }
+    .items img{
+        width: 100%;
+        height: 100%;
+    }
+    .details{
+        position: absolute;
+        bottom: 2rem;
+        left:30%;
+        text-align: center;
+        
+    }
+    .link{
+        font-size: 1rem;
+        padding: 6px 24px;
+    }
+
+    .head{
+        font-size: 1.5rem;    
+    }
+    .main-head{
+        font-size: 2rem;
+    
+    }
+
+    .cards_sub_container{
+        width: 80rem;
+        height: auto;
+        gap: 2%;
+        margin: 1rem 0rem;
+    }
+
+    .collection-header h1{
+        margin: 1.7rem 0rem;
+        font-size: 1.5rem !important;
+    }
+
+    .type-items{
+        margin-bottom: 2.5rem;
+        height: 100%;
+        width:100%;
+        padding:1rem 1rem ;
+    }
+    
+    .perfum-images{
+        width: 9rem;
+        height: 9rem;
+    }
+    .collection-main{
+        font-size: 1rem;
+    
+    }
+
+    .collection-sub,.collection-rate{
+        font-size: 0.85rem;
+    }
+    .order-container{
+        margin-top: 10px;
+    }
+    .order-btn{
+        font-size: 0.69rem;
+    }
+
+    .about_main_container{
+        width: 100%;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+    .about{
+        position: relative;
+        width: 100%;
+        height: 25rem;
+    }
+
+    .about-contents{
+        position: absolute;
+      
+        width: 45%;
+        right: 10%;
+        top: 25%;
+        font-size: 0.93rem;
+    }
+    .about-contents h1{
+        font-size: 2.5rem;
+    
+    }
+
+    .footer_sub_container{
+        width: 80rem;
+        padding: 1.7rem 0rem;
+    }
+
+    .main-container li{
+        margin-top: 0.5rem;
+    }
+    
+    .fb,.insta,.twitter{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    ul {
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .icons{
+        display: flex;
+    }
+    #cancel{
+        display: none;
+    }
+    #check:checked~.icons #menu{
+        display: none;
+    }
+    #check:checked~.nav_contents{
+        display: block;
+        height: 15rem;
+    }
+    #check:checked~.icons #cancel{
+           display: block;
+    }
+    .nav_contents{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: block;
+        background: gainsboro;
+        width: 100%;
+        display: none;
+    }
+    .nav_contents a{
+        display: block;
+        font-size: 1.1rem;
+        margin: 1.5rem 0;
+         text-align: center;
+    }
+    
+    /* home */
+    .home{
+        position: relative;
+        width: 100%;
+        height: 60vh;
+        text-align: center;
+    }
+    .home img{
+        width: 100%;
+        height: 60vh;
+    }
+    .home-content{
+        position: absolute;
+        left: 2%;
+        top: 70%;
+        text-align: center;
+        width: 98%;
+    }
+    .home-head{
+        font-size: 2rem;
+    }
+    .home-para{
+        font-size: 0.79rem;
+    }
+
+    .category_sub{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        width: 70%;
+        height: auto;
+        gap: 2%;
+        margin: 2rem 0rem;
+    
+    
+    }
+    .items{
+        position: relative;
+        width: 100%;
+        height: 20rem;
+        border-radius: 10px;
+    }
+    .items img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    .details{
+        position: absolute;
+        bottom: 2rem;
+        left:30%;
+        text-align: center;
+        
+    }
+
+    .head{
+        font-size: 1.5rem;
+    
+    }
+    .main-head{
+        font-size: 1.6rem;
+        margin-bottom: 0.5rem;
+    
+    }
+    .cards_whole_container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .cards_sub_container{
+        width: 85%;
+        height: auto;
+        gap: 2%;
+        margin: 1rem 0rem;
+    }
+    .collection-header{
+        width: 100%;
+        text-align: center;
+        font-family: "Cinzel", serif;
+    
+    
+    }
+    
+    .collection-header h1{
+        margin: 2rem 0rem;
+        font-size: 1.5rem !important;
+    }
+    .type-collection{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap:2% ;
+        align-items: stretch !important;
+        width: 85%;
+        margin-left: 5%;
+        
+    }
+    .type-items{
+        margin-bottom: 4rem;
+        height: 100%;
+        width:100%;
+        transition: transform .2s;
+        padding:2rem 1rem ;
+        border-radius: 5px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .tyoe-items:hover{
+        box-shadow: rgb(228, 184, 168) 0px 5px 15px;
+        border: none;
+        transform: scale(1.09);
+    }
+    
+    .perfum-images{
+        width: 10rem;
+        height: 10rem;
+    }
+    .collection-main{
+        font-size: 1.2rem;
+        font-family: "Cinzel", serif;
+    
+    }
+    .collection-sub,.collection-rate{
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.5;
+        font-family: "Maname", serif;
+    
+    }
+    .order-container{
+        margin-top: 10px;
+    }
+    .order-btn{
+        color: black;
+        padding: 3px 5px;
+        background-color: rgb(228, 184, 168);
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+    .order-btn:hover{
+        border: solid 1px black;
+    }
+    .about_main_container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 50%;
+        margin-top: -4rem;
+        text-align: center;
+        background-color: rgb(250, 229, 197);
+        color: black;
+        font-family: "Cinzel", serif;
+
+    }
+    .about{
+    width: 100%;
+    padding: 1rem;
+
+    }
+    .about img{
+
+        display: none;
+    }
+    .about-contents{
+       
+        width: 85%;
+        text-align: center;
+        font-family: "Cinzel", serif;
+        font-weight: 600;
+        font-size: 0.79rem;
+    }
+    .about-contents h1{
+        font-family: "Cinzel", serif;
+        font-size: 2rem;
+    
+    }
+    .footer_main_container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+    }
+    .footer_sub_container{
+        width: 100%;
+        display: flex;
+        gap: 1%;
+        justify-content: center;
+        padding: 2rem 0.5rem;
+    }
+    .main-container{
+        color: white;
+        width: 50%;
+    }
+    .main-container h2{
+        font-size: 0.75rem;
+    }
+    .main-container li{
+        margin-top: 0.5rem;
+        font-size: 0.69rem;
+    }
+    
+    .fb,.insta,.twitter{
+        color:white;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    ul {
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 1400px) and (min-width: 1200px) {
+
+    .home{
+        width: 100%;
+        text-align: center;
+    }
+    .home-content{
+        position: absolute;
+        left: 30%;
+        top: 65%;
+       
+    }
+    .home-head{
+        font-size: 5rem;
+    }
+    .home-para{
+        font-size: 1.4rem;
+    }
+
+    /* category */
+
+    .category_sub{
+        width: 70rem;
+        margin: 2rem 0rem;    
+    }
+
+    .items{
+        position: relative;
+        width: 32%;
+        height: 20rem;
+    }
+
+    .details{
+        position: absolute;
+        bottom: 2rem;
+        left:30%;
+        text-align: center;
+        
+    }
+    .link{
+        font-size: 1rem;
+        padding: 4px 24px;
+    }
+
+    .head{
+        font-size: 1.5rem;    
+    }
+    .main-head{
+        font-size: 1.6rem;
+    
+    }
+
+    .cards_sub_container{
+        width: 70rem;
+        height: auto;
+        gap: 2%;
+        margin: 1rem 0rem;
+    }
+
+    .collection-header h1{
+        margin: 1.7rem 0rem;
+        font-size: 1.5rem !important;
+    }
+
+    .type-items{
+        margin-bottom: 2.5rem;
+        height: 100%;
+        width:100%;
+        padding:1rem 1rem ;
+    }
+    
+    .perfum-images{
+        width: 9rem;
+        height: 9rem;
+    }
+    .collection-main{
+        font-size: 1rem;
+    
+    }
+
+    .collection-sub,.collection-rate{
+        font-size: 0.85rem;
+    }
+    .order-container{
+        margin-top: 10px;
+    }
+    .order-btn{
+        font-size: 0.69rem;
+    }
+
+    .about_main_container{
+        width: 100%;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+    .about{
+        position: relative;
+        width: 100%;
+        height: 22rem;
+    }
+
+    .about-contents{
+        position: absolute;
+     
+        width: 45%;
+        right: 10%;
+        top: 25%;
+        font-size: 0.93rem;
+    }
+    .about-contents h1{
+        font-size: 2rem;
+    
+    }
+    .about-contents p{
+        font-size: 0.69rem;
+    }
+
+    .footer_sub_container{
+        width: 70rem;
+        padding: 1.7rem 0rem;
+    }
+
+    .main-container li{
+        margin-top: 0.5rem;
+    }
+    
+    .fb,.insta,.twitter{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+
+    
+    .home-content{
+        position: absolute;
+        left: 30%;
+        top: 65%;
+    }
+    .home-head{
+        font-size: 4rem;
+    }
+    .home-para{
+        font-size: 1.4rem;
+    }
+
+    /* category */
+
+    .category_sub{
+        width: 60rem;
+        margin: 2rem 0rem;    
+    }
+
+    .items{
+        position: relative;
+        width: 32%;
+        height: 20rem;
+    }
+
+    .details{
+        position: absolute;
+        bottom: 2rem;
+        left:30%;
+        text-align: center;
+        
+    }
+    .link{
+        font-size: 1rem;
+        padding: 4px 24px;
+    }
+
+    .head{
+        font-size: 1.5rem;    
+    }
+    .main-head{
+        font-size: 1.7rem;
+    
+    }
+
+    .cards_sub_container{
+        width: 60rem;
+        height: auto;
+        gap: 2%;
+        margin: 1rem 0rem;
+    }
+
+    .collection-header h1{
+        margin: 1.7rem 0rem;
+        font-size: 1.5rem !important;
+    }
+
+    .type-items{
+        margin-bottom: 2.5rem;
+        height: 100%;
+        width:100%;
+        padding:1rem 1rem ;
+    }
+    
+    .perfum-images{
+        width: 9rem;
+        height: 9rem;
+    }
+    .collection-main{
+        font-size: 1rem;
+    
+    }
+
+    .collection-sub,.collection-rate{
+        font-size: 0.85rem;
+    }
+    .order-container{
+        margin-top: 10px;
+    }
+    .order-btn{
+        font-size: 0.69rem;
+    }
+
+    .about_main_container{
+        width: 100%;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+    .about{
+        position: relative;
+        width: 100%;
+        height: 18rem;
+    }
+
+    .about-contents{
+        position: absolute;
+       
+        width: 45%;
+        right: 10%;
+        top: 25%;
+        font-size: 0.93rem;
+    }
+    .about-contents h1{
+        font-size: 1rem;
+    
+    }
+    .about-contents p{
+        font-size: 0.69rem;
+    }
+
+
+    .footer_sub_container{
+        width: 60rem;
+        padding: 1.7rem 0rem;
+    }
+
+    .main-container li{
+        margin-top: 0.5rem;
+    }
+    
+    .fb,.insta,.twitter{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+
+    .home{
+        width: 100%;
+        text-align: center;
+    }
+    .home-content{
+        position: absolute;
+        left: 30%;
+        top: 65%;
+    }
+    .home-head{
+        font-size: 3rem;
+    }
+    .home-para{
+        font-size: 1.2rem;
+    }
+    .nav_contents{
+        width: 50%;
+    }
+    .logo{
+        width: 50%;
+    }
+    /* category */
+
+    .category_sub{
+        width: 45rem;
+        margin: 2rem 0rem;    
+    }
+
+    .items{
+        position: relative;
+        width: 32%;
+        height: 15rem;
+    }
+
+    .details{
+        position: absolute;
+        bottom: 2rem;
+        left:30%;
+        text-align: center;
+        
+    }
+    .link{
+        font-size: 1rem;
+        padding: 4px 16px;
+    }
+
+    .head{
+        font-size: 1.3rem;    
+    }
+    .main-head{
+        font-size: 1.5rem;
+    
+    }
+
+    .cards_sub_container{
+        width: 45rem;
+        height: auto;
+        gap: 2%;
+        margin: 1rem 0rem;
+    }
+
+    .collection-header h1{
+        margin: 1.7rem 0rem;
+        font-size: 1.5rem !important;
+    }
+
+    .type-collection {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      
+      .type-items {
+        flex: 1 1 calc(33.333% - 10px); /* Each item takes up 1/3 of the row minus some margin */
+        box-sizing: border-box;
+        margin: 5px;
+      }
+    .perfum-images{
+        width: 9rem;
+        height: 9rem;
+    }
+    .collection-main{
+        font-size: 1rem;
+    
+    }
+
+    .collection-sub,.collection-rate{
+        font-size: 0.85rem;
+    }
+    .order-container{
+        margin-top: 10px;
+    }
+    .order-btn{
+        font-size: 0.69rem;
+    }
+
+    .about_main_container{
+        width: 100%;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+    .about{
+        position: relative;
+        width: 100%;
+        height: 18rem;
+    }
+
+    .about-contents{
+        position: absolute;
+        
+        width: 45%;
+        right: 10%;
+        top: 25%;
+        font-size: 0.93rem;
+    }
+    .about-contents h1{
+        font-size: 1rem;
+    
+    }
+    .about-contents p{
+        font-size: 0.69rem;
+    }
+
+
+    .footer_sub_container{
+        width: 45rem;
+        padding: 1.7rem 0rem;
+    }
+
+    .main-container li{
+        margin-top: 0.5rem;
+    }
+    
+    .fb,.insta,.twitter{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+
+    .home{
+        width: 100%;
+        text-align: center;
+    }
+    .home-content{
+        position: absolute;
+        left: 20%;
+        top: 65%;
+    }
+    .home-head{
+        font-size: 3rem;
+    }
+    .home-para{
+        font-size: 1.1rem;
+    }
+
+    /* category */
+
+    .category_sub{
+        width: 40rem;
+        margin: 2rem 0rem;    
+    }
+
+    .items{
+        position: relative;
+        width: 32%;
+        height: 15rem;
+    }
+
+    .details{
+        position: absolute;
+        bottom: 2rem;
+        left:20%;
+        text-align: center;
+        
+    }
+    .link{
+        font-size: 1rem;
+        padding: 4px 15px;
+    }
+
+    .head{
+        font-size: 1.2rem;    
+    }
+    .main-head{
+        font-size: 1.3rem;
+    
+    }
+
+    .cards_sub_container{
+        width: 30rem;
+        height: auto;
+        gap: 2%;
+        margin: 1rem 0rem;
+    }
+
+    .collection-header h1{
+        margin: 1.7rem 0rem;
+        font-size: 1.5rem !important;
+    }
+
+    .type-collection {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      
+      .type-items {
+        flex: 1 1 calc(33.333% - 10px); /* Each item takes up 1/3 of the row minus some margin */
+        box-sizing: border-box;
+        margin: 5px;
+      }
+    .perfum-images{
+        width: 9rem;
+        height: 9rem;
+    }
+    .collection-main{
+        font-size: 1rem;
+    
+    }
+
+    .collection-sub,.collection-rate{
+        font-size: 0.85rem;
+    }
+    .order-container{
+        margin-top: 10px;
+    }
+    .order-btn{
+        font-size: 0.69rem;
+    }
+
+    .about_main_container{
+        width: 100%;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+    .about{
+        position: relative;
+        width: 100%;
+        height: 18rem;
+    }
+
+    .about-contents{
+        position: absolute;
+       
+        width: 45%;
+        right: 10%;
+        top: 25%;
+        font-size: 0.93rem;
+    }
+    .about-contents h1{
+        font-size: 1rem;
+    
+    }
+    .about-contents p{
+        font-size: 0.69rem;
+    }
+
+
+    .footer_sub_container{
+        width: 30rem;
+        padding: 1.7rem 0rem;
+    }
+    .footer-heading{
+        font-size: 0.93rem;
+    }
+    .main-container li{
+        margin-top: 0.5rem;
+        font-size: 0.69rem;
+    }
+    
+    .fb,.insta,.twitter{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+}
+@media (max-width:768px) {
+    .home{
+        width: 100%;
+        text-align: center;
+    }
+    .icons{
+        display: flex;
+    }
+    #cancel{
+        display: none;
+    }
+    #check:checked~.icons #menu{
+        display: none;
+    }
+    #check:checked~.nav_contents{
+        display: block;
+        height: 15rem;
+    }
+    #check:checked~.icons #cancel{
+           display: block;
+    }
+    .nav_contents{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: block;
+        background: gainsboro;
+        width: 100%;
+        display: none;
+    }
+    .nav_contents a{
+        display: block;
+        font-size: 1.1rem;
+        margin: 1.5rem 0;
+         text-align: center;
+    }
+}
